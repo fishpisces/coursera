@@ -22,13 +22,11 @@ int main()
 			if (a[i] < a[j]) temp++;
 			if (a[i] == a[j]) tempp++;
 		}
-		tempp--;//tempp记录相同的元素，这里减去自身
-		if ((temp <= k - 1) && (temp + tempp >= k - 1))//要么比它大的有那么多，或者加上相等的
+		tempp--;		//tempp记录相同的元素，这里减去自身
+		if ((temp <= k - 1) && (temp + tempp >= k - 1))		//要么比它大的有那么多，或者加上相等的
 		{
 			cout << a[i];
-			return 0;
-		}
-		
+		}		
 		temp = 0;
 		tempp = 0;
 	}
