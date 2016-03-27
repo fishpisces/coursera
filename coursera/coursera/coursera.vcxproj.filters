@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\week7\find k.cpp">
+    <ClCompile Include="..\..\week8\buy house.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
