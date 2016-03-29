@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\week8\buy house.cpp" />
+    <ClCompile Include="..\..\week8\zhengchu.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D2925799-B105-4B24-ADCD-CE624763224E}</ProjectGuid>
